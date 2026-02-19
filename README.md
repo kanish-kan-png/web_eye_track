@@ -6,7 +6,6 @@
 ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)
 [![GitHub stars](https://img.shields.io/github/stars/ck-zhang/EyeTrax.svg?style=social)](https://github.com/ck-zhang/EyeTrax)
 
-![Demo](https://github.com/user-attachments/assets/1b953a10-442f-4c4a-95e0-52a68f1488bc)
 
 EyeTrax is a Python library that provides **webcam-based eye tracking**.
 Extract facial features, train a model and predict gaze with an easy‑to‑use interface.
@@ -76,9 +75,7 @@ eyetrax-demo --calibration dense --grid-rows 7 --grid-cols 7
 eyetrax-virtualcam --filter kde --calibration 5p
 ```
 
-### Virtual camera demo
 
-https://github.com/user-attachments/assets/de4a0b63-8631-4c16-9901-9f83bc0bb766
 
 ## Library Usage
 
@@ -117,12 +114,10 @@ If you find EyeTrax useful, consider starring the repo or contributing. If you u
 **BibTeX**
 ```bibtex
 @software{Zhang2025_EyeTrax,
-  author       = {Chenkai Zhang},
   title        = {EyeTrax},
   version      = {0.2.2},
   date         = {2025-04-23},
-  url          = {https://pypi.org/project/eyetrax/},
-  repository   = {https://github.com/ck-zhang/EyeTrax},
+,
   doi          = {10.5281/zenodo.17188537},
   keywords     = {eye tracking, computer vision}
 }
